@@ -31,7 +31,7 @@ header {
 }
 
 .logo {
-  height: 40px;
+  height: 60px;
 }
 .menu-header {
   width: 50%;
@@ -333,11 +333,13 @@ footer span {
 }
 /* inicio footer */
 footer {
-    display: block;
-    height: auto;
-    width: 100%;
-    background-color:  #0f111c;
+  display: block;
+  height: auto;
+  width: 100%;
+  background-color: #0f111c;
+  margin-top: 10px;
 }
+
 .rodape {
   padding: 50px 50px;
 }
@@ -357,7 +359,7 @@ footer {
 }
 .rodape a {
   text-decoration: none;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: 13px
 }
 .rodape a:hover {
@@ -386,18 +388,18 @@ footer {
 /* fim footer */
 /* Início whatsapp */
 .whatsapp {
-  position: fixed;
-  z-index: 2;
-  top: 200px;
-  right: 20px;
+    position: fixed;
+    z-index: 2;
+    top: 200px;
+    right: 20px;
 }
 .whatsapp img {
-  height: 60px;
+    height: 60px;
 }
 
 /* efeitos pulse */
 .whatsapp .pulse {
-  animation: pulse 0.7s infinite;
+animation: pulse 0.7s infinite;
 margin: 0 auto;
 display: table;
 margin-top: 50px;
@@ -407,33 +409,40 @@ animation-name: pulse;
 }
 @-webkit-keyframes pulse {
 0% {
-  -webkit-transform: scale(1);
-  -webkit-filter: brightness(100%);
+    -webkit-transform: scale(1);
+    -webkit-filter: brightness(100%);
 }
 100% {
-  -webkit-transform: scale(1.1);
-  -webkit-filter: brightness(110%);
+    -webkit-transform: scale(1.1);
+    -webkit-filter: brightness(110%);
 }
 }
 @keyframes pulse {
 0% {
-  transform: scale(1);
-  filter: brightness(100%);
+    transform: scale(1);
+    filter: brightness(100%);
 }
 100% {
-  transform: scale(1.1);
-  filter: brightness(110%);
+    transform: scale(1.1);
+    filter: brightness(110%);
 }
 }
-/* Inicío CSS Card Produtos */
+/* fim efeito pulse */
+
+/* Inicío CSSS Card Produtos */
+.text-center {
+  position: relative;
+  display: block;
+}
 .text-center .mb-5 {
     margin-top: 20px;
+   
 }
 .text-center .mb-5 .col-lg-4 {
     border: none;
 }
 .card img {
-    max-height: auto;
+    max-height: 800px;
     width: auto;
 }
 .bg-image {
@@ -470,8 +479,3 @@ animation-name: pulse;
 
  }
 /*  Fim CSS Card Produtos */
-
-
-
-
-
