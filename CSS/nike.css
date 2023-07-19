@@ -20,7 +20,7 @@ header {
   z-index: 1;
   background-color: #0f111c;
   height: 80px;
-  position: fixed;
+  position: relative;
   width: 100vw;
 }
 .conteudo-header {
@@ -68,7 +68,7 @@ header {
   line-height: 47px;
   font-size: 1.5em !important;
   border: solid 1px #080324;
-  border-radius: 30px 10px;
+  border-radius: 30PX 10px;
 }
 .botao:hover {
   font-size: 1.6em !important;
@@ -432,11 +432,10 @@ animation-name: pulse;
 /* Inicío CSSS Card Produtos */
 .text-center {
   position: relative;
-  top: 120px;
-  display: inline-block;
+  display: block;
 }
 .text-center .mb-5 {
-    margin-top: 0px;
+    margin-top: 20px;
    
 }
 .text-center .mb-5 .col-lg-4 {
@@ -444,7 +443,7 @@ animation-name: pulse;
 }
 .card img {
     max-height: 800px;
-    width: auto;
+    width: 800px;
 }
 .bg-image {
     position: relative;
@@ -480,4 +479,3 @@ animation-name: pulse;
 
  }
 /*  Fim CSS Card Produtos */
-
